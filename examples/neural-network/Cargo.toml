@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 lsh-rs = {path = "../../lsh-rs", features=["blas"]}
-blas-src = { version = "0.6", defeault-features = false, features = ["openblas"]}
+blas-src = { version = "0.8", defeault-features = false, features = ["openblas"]}
 ndarray = {version = "0.13", features=["blas", "rayon"]}
 ndarray-rand = "0.11.0"
 fnv = "1.0.6"

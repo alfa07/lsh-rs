@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 lsh-rs = {path = "..", features=["blas", "workspace"]}
-blas-src = { version = "0.6", defeault-features = false, features = ["openblas"]}
+blas-src = { version = "0.8", defeault-features = false, features = ["openblas"]}
 rand = {version = "0.7", features = ["small_rng"]}
 
 [features]
